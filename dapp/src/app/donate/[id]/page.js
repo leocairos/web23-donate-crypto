@@ -63,13 +63,13 @@ export default function Donate() {
                         <p><strong>Author: </strong>{campaign.author}</p>
                         <p className="mb-3">{campaign.description}</p>
                         <p className="mb-3 fst-italic mt-5">
-                            So, what did you think of the project? Has it already been raised {Web3.utils.fromWei(campaign.balance || 0, "ether")} POL in this campaign.
-                            How much do you want to donate (in POL)?
+                            So, what did you think of the project? Has it already been raised {Web3.utils.fromWei(campaign.balance || 0, "ether")} SepoliaETH in this campaign.
+                            How much do you want to donate (in SepoliaETH)?
                         </p>
                         <div className="mb-3">
                             <div className="input-group">
                                 <input type="number" id="donation" className="form-control p-3 w-50" value={donation} onChange={onDonationChange} />
-                                <span className="input-group-text">POL</span>
+                                <span className="input-group-text">SepoliaETH</span>
                                 <button type="button" className="btn btn-primary p-3 w-25" onClick={btnDonateClick}>Doar</button>
                             </div>
                         </div>
