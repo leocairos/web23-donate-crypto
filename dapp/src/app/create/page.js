@@ -53,7 +53,7 @@ export default function Create() {
                         <label htmlFor="videoUrl">Video URL:</label>
                     </div>
                     <div className="col-12 mb-3">
-                        <button type="button" className="btn btn-primary col-12 p-3" onClick={btnSaveClick}>Salvar</button>
+                        <button type="button" className="btn btn-primary col-12 p-3" onClick={btnSaveClick}>Save</button>
                     </div>
                     {
                         message
