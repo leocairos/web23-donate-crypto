@@ -4,11 +4,11 @@ import Web3 from "web3";
 const CONTRACT_ADDRESS = "0x53C3c73D37f6F3073447167e755d38368DD8089D";
 
 export async function doLogin() {
-    if (!window.ethereum) throw new Error("MetaMask não encontrada!");
+    if (!window.ethereum) throw new Error("MetaMask not found!");
 
     const web3 = new Web3(window.ethereum);
     const accounts = await web3.eth.requestAccounts();
-    if (!accounts || !accounts.length) throw new Error("Carteira não encontrada/autorizada");
+    if (!accounts || !accounts.length) throw new Error("Wallet not found/authorized");
 
     localStorage.setItem("wallet", accounts[0]);
     return accounts[0];

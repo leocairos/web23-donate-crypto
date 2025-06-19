@@ -12,6 +12,8 @@ Projects from Web3 para Iniciantes' course [by LuizTools](https://cursos.luiztoo
 
 My Donate Crypto web3 smart contract
 
+Demo available in [https://sepolia.etherscan.io/address/0x53C3c73D37f6F3073447167e755d38368DD8089D](https://sepolia.etherscan.io/address/0x53C3c73D37f6F3073447167e755d38368DD8089D)
+
 ### How to smart-contract
 
 1. open https://remix.ethereum.org
@@ -26,19 +28,15 @@ My Donate Crypto web3 smart contract
 
 My Donate Crypto web3 frontend.
 
-## How to Run
+Demo available in [https://web23-donate-crypto.vercel.app/](https://web23-donate-crypto.vercel.app/)
+
+## How to local run
 
 1. git clone dapp
 2. npm install
 3. change contract address at services/Web3Service.js and ABI.json
 4. npm run dev
 5. access by http://localhost:3000/
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-[Donate Ccrypto](https://webbb3.vercel.app/)
 
 ## License
 

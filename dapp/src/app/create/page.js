@@ -21,7 +21,7 @@ export default function Create() {
         setMessage("Saving campaign...please wait...");
         addCampaign(campaign)
             .then(tx => getLastCampaignId())
-            .then(id => setMessage(`Campaign has been saved with ID ${id}. In a few minutes it will be ready to receive donations, use this link to promote it: http://localhost:3000/donate/${id}`))
+            .then(id => setMessage(`Campaign has been saved with ID ${id}. In a few minutes it will be ready to receive donations, use this link to promote it: ${window.location.origin}/${id}`))
             .catch(err => {
                 console.error(err);
                 setMessage(err.message);
@@ -33,7 +33,7 @@ export default function Create() {
             <div className="container">
                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3 mt-5">Donate Crypto</h1>
                 <p>Fill in the fields to include your campaign on the platform.</p>
-                <p>Ao término do cadastro, você receberá o link para divulgá-la e receber as doações.</p>
+                <p>Once you have completed your registration, you will receive a link to share it and receive donations.</p>
                 <hr className="mb-4" />
                 <div className="col-6">
                     <div className="form-floating mb-3">
