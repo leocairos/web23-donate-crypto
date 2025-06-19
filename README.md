@@ -12,7 +12,7 @@ Projects from Web3 para Iniciantes' course [by LuizTools](https://cursos.luiztoo
 
 My Donate Crypto web3 smart contract
 
-Demo available in [https://sepolia.etherscan.io/tx/0xa6db468fec1875cbe595e933803a8331cf8a6ff5c0cebfaec146031c855a53f6](https://sepolia.etherscan.io/tx/0xa6db468fec1875cbe595e933803a8331cf8a6ff5c0cebfaec146031c855a53f6)
+Demo available in [https://sepolia.etherscan.io/address/0x6d496e244c199820288dfd750d10c6ad5385973d](https://sepolia.etherscan.io/address/0x6d496e244c199820288dfd750d10c6ad5385973d)
 
 ### How to smart-contract
 
