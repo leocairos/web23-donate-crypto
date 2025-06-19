@@ -21,7 +21,7 @@ export default function Create() {
         setMessage("Saving campaign...please wait...");
         addCampaign(campaign)
             .then(tx => getLastCampaignId())
-            .then(id => setMessage(`Campaign has been saved with ID ${id}. In a few minutes it will be ready to receive donations, use this link to promote it: ${window.location.origin}/${id}`))
+            .then(id => setMessage(`Campaign has been saved with ID ${id}. In a few minutes it will be ready to receive donations, use this link to promote it: ${window.location.origin}/donate/${id}`))
             .catch(err => {
                 console.error(err);
                 setMessage(err.message);
